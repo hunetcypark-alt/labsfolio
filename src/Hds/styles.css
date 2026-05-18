@@ -60,17 +60,41 @@
   --color\/red\/900: #961C28;
   --color\/red\/1000: #64121B;
   --color\/red\/1100: #32090D;
-  --color\/blue\/100: #F5F9FF;
-  --color\/blue\/200: #EBF3FF;
-  --color\/blue\/300: #CCE0FF;
-  --color\/blue\/400: #99C2FF;
-  --color\/blue\/500: #66A3FF;
-  --color\/blue\/600: #3385FF;
-  --color\/blue\/700: #06F;
-  --color\/blue\/800: #0052CC;
-  --color\/blue\/900: #003D99;
-  --color\/blue\/1000: #002966;
-  --color\/blue\/1100: #001433;
+  --color\/red-orange\/100: #FFF9F5;
+  --color\/red-orange\/200: #FFF2EB;
+  --color\/red-orange\/300: #FFDFCC;
+  --color\/red-orange\/400: #FFBF99;
+  --color\/red-orange\/500: #FF9E66;
+  --color\/red-orange\/600: #FF7E33;
+  --color\/red-orange\/700: #FF5D00;
+  --color\/red-orange\/800: #CC4B00;
+  --color\/red-orange\/900: #993800;
+  --color\/red-orange\/1000: #662600;
+  --color\/red-orange\/1100: #331300;
+  --color\/orange\/100: #FFFBF5;
+  --color\/orange\/200: #FFF6EB;
+  --color\/yellow\/100: #FFFEF6;
+  --color\/lime\/100: #F8FDF5;
+  --color\/lime\/200: #F2FBEB;
+  --color\/lime\/300: #DEF5CD;
+  --color\/lime\/400: #BCEC9B;
+  --color\/lime\/500: #9BE268;
+  --color\/lime\/600: #79D936;
+  --color\/lime\/700: #58CE04;
+  --color\/lime\/800: #46A603;
+  --color\/lime\/900: #357C02;
+  --color\/lime\/1000: #235302;
+  --color\/lime\/1100: #122901;
+  --color\/yellow\/200: #FFFDED;
+  --color\/yellow\/300: #FFFBD3;
+  --color\/yellow\/400: #FFF6A8;
+  --color\/yellow\/500: #FFF27C;
+  --color\/yellow\/600: #FFED51;
+  --color\/yellow\/700: #FFE925;
+  --color\/yellow\/800: #CCBA1E;
+  --color\/yellow\/900: #998C16;
+  --color\/yellow\/1000: #665D0F;
+  --color\/yellow\/1100: #332F07;
   --color\/green\/100: #F5FCF7;
   --color\/green\/200: #EBFAF0;
   --color\/green\/300: #CCF2D9;
@@ -78,10 +102,46 @@
   --color\/green\/500: #66D98C;
   --color\/green\/600: #3C6;
   --color\/green\/700: #00BF40;
+  --color\/cyan\/100: #F5FCFE;
   --color\/green\/800: #093;
+  --color\/orange\/300: #FFE9CC;
+  --color\/cyan\/200: #EBFAFC;
+  --color\/cyan\/300: #CCF2F8;
+  --color\/cyan\/400: #99E5F2;
+  --color\/cyan\/500: #66D7EB;
+  --color\/cyan\/600: #33CAE5;
+  --color\/orange\/400: #FFD399;
   --color\/green\/900: #007326;
-  --color\/green\/1000: #004C1A;
-  --color\/green\/1100: #00260D;
+  --color\/orange\/500: #FFBE66;
+  --color\/cyan\/700: #00BDDE;
+  --color\/orange\/600: #FFA833;
+  --color\/sky\/100: #F5FCFF;
+  --color\/sky\/200: #EBF9FF;
+  --color\/sky\/300: #CCEFFF;
+  --color\/sky\/400: #99DFFF;
+  --color\/sky\/500: #66CEFF;
+  --color\/sky\/600: #33BEFF;
+  --color\/sky\/700: #00AEFF;
+  --color\/sky\/800: #008BCC;
+  --color\/sky\/900: #006899;
+  --color\/sky\/1000: #004666;
+  --color\/sky\/1100: #002333;
+  --color\/blue\/100: #F5F9FF;
+  --color\/blue\/200: #EBF3FF;
+  --color\/blue\/300: #CCE0FF;
+  --color\/blue\/400: #99C2FF;
+  --color\/blue\/500: #66A3FF;
+  --color\/orange\/700: #FF9200;
+  --color\/blue\/600: #3385FF;
+  --color\/orange\/800: #CC7500;
+  --color\/orange\/900: #995800;
+  --color\/orange\/1000: #663A00;
+  --color\/orange\/1100: #331D00;
+  --color\/blue\/700: #06F;
+  --color\/cyan\/800: #0097B2;
+  --color\/blue\/800: #0052CC;
+  --color\/cyan\/900: #007185;
+  --color\/cyan\/1000: #004C59;
   --color\/violet\/100: #F9F7FE;
   --color\/violet\/200: #F3F0FE;
   --color\/violet\/300: #E0D9FC;
@@ -93,6 +153,34 @@
   --color\/violet\/900: #3D2791;
   --color\/violet\/1000: #281A61;
   --color\/violet\/1100: #140D30;
+  --color\/blue\/900: #003D99;
+  --color\/purple\/100: #FDF8FF;
+  --color\/purple\/200: #FBF2FF;
+  --color\/purple\/300: #F5DEFF;
+  --color\/purple\/400: #EABDFF;
+  --color\/purple\/500: #E09BFF;
+  --color\/purple\/600: #D57AFF;
+  --color\/purple\/700: #CB59FF;
+  --color\/purple\/800: #A247CC;
+  --color\/purple\/900: #7A3599;
+  --color\/purple\/1000: #512466;
+  --color\/purple\/1100: #291233;
+  --color\/pink\/100: #FFF8FE;
+  --color\/pink\/200: #FEF1FC;
+  --color\/pink\/300: #FDDDF8;
+  --color\/pink\/400: #FBBAF0;
+  --color\/pink\/500: #F998E9;
+  --color\/pink\/600: #F775E1;
+  --color\/pink\/700: #F553DA;
+  --color\/pink\/800: #C442AE;
+  --color\/pink\/900: #933283;
+  --color\/pink\/1000: #622157;
+  --color\/pink\/1100: #31112C;
+  --color\/cyan\/1100: #00262C;
+  --color\/green\/1000: #004C1A;
+  --color\/green\/1100: #00260D;
+  --color\/blue\/1000: #002966;
+  --color\/blue\/1100: #001433;
   --color\/role\/info: #06F;
   --color\/role\/success: #00BF40;
   --color\/role\/warning: #FF9200;
@@ -102,24 +190,33 @@
   --color\/brand\/company-primary: var(--color\/blue\/700);
   --color\/white: #FFF;
   --color\/black: #000;
-  --typography\/black100: var(--color\/gray\/1700);
-  --typography\/black80: #171719CC;
-  --typography\/black60: #17171999;
-  --typography\/black45: #17171973;
-  --typography\/disable: #17171940;
-  --background\/primary: var(--color\/white);
-  --background\/alternative: var(--color\/gray\/100);
-  --line\/layout: var(--color\/gray\/300);
-  --line\/outline: var(--color\/gray\/400);
-  --radius\/none: var(--size\/0);
-  --radius\/xs: var(--size\/4);
-  --radius\/sm: var(--size\/8);
-  --radius\/md: var(--size\/12);
-  --radius\/lg: var(--size\/16);
-  --radius\/xl: var(--size\/20);
-  --radius\/2xl: var(--size\/32);
-  --radius\/full: var(--size\/900);
+  --breakpoint\/browser: 2500;
+  --container-style\/gutter: var(--spacing\/8);
+  --comp-style\/comp-padding: var(--spacing\/10);
+  --comp-style\/comp-title: var(--text\/xl);
+  --comp-style\/comp-title-weight: var(--font\/weight\/bold);
+  --container-style\/padding: var(--spacing\/16);
+  --sidebar-view: true;
+  --search-input: true;
+  --search-icon: false;
+  --logo-space: 20;
+  --icon-space: 16;
+  --radius\/none: var(--size\/0);  /* 0 */
+  --border-width\/1: 1;
+  --border-width\/2: 2;
+  --border-width\/3: 3;
+  --border-width\/4: 4;
+  --radius\/xs: var(--size\/4);  /* 4 */
+  --radius\/sm: var(--size\/8);  /* 8 */
+  --radius\/md: var(--size\/12);  /* 12 */
+  --radius\/lg: var(--size\/16);  /* 12 */
+  --radius\/xl: var(--size\/20);  /* 20 */
+  --radius\/2xl: var(--size\/32);  /* 20 */
+  --radius\/3xl: var(--size\/40);
   --spacing\/1: var(--size\/2);
+  --tracking\/tighter: -0.699999988079071;
+  --tracking\/tight: -0.5;
+  --tracking\/normal: 0;
   --spacing\/2: var(--size\/4);
   --spacing\/3: var(--size\/6);
   --spacing\/4: var(--size\/8);
@@ -149,199 +246,327 @@
   --font\/weight\/semibold: var(--size\/600);
   --font\/weight\/bold: var(--size\/700);
   --font\/weight\/black: var(--size\/900);
+  --spacing\/50: var(--size\/100);
+  --radius\/full: var(--size\/900);
+  --component\/icon\/icon-12: var(--size\/12);
+  --component\/icon\/icon-16: var(--size\/16);
+  --component\/icon\/icon-20: var(--size\/20);
+  --component\/icon\/icon-24\(basic\): var(--size\/24);
+  --component\/icon\/icon-32: var(--size\/32);
+  --component\/icon\/icon-48: var(--size\/48);
+  --component\/button\/button-24: var(--size\/24);
+  --component\/button\/button-28: var(--size\/28);
+  --component\/button\/button-32: var(--size\/32);
+  --component\/button\/button-40: var(--size\/40);
+  --component\/button\/button-48: var(--size\/48);
+  --component\/button\/button-56: var(--size\/56);
+  --component\/button\/button-60: var(--size\/60);
+  --component\/button\/button-72: var(--size\/72);
+  --component\/button\/button-80: var(--size\/80);
+  --background\/primary: var(--color\/white);
+  --static\/white: var(--color\/white);
+  --line\/layout: var(--color\/gray\/300);
+  --line\/outline: var(--color\/gray\/400);
+  --line\/strong: var(--color\/gray\/700);
+  --line\/bold: var(--color\/gray\/1000);
+  --static\/black: var(--color\/black);
+  --interaction\/button-neutral: var(--color\/gray\/1400);
+  --interaction\/button-subtle: var(--color\/gray\/1000);
+  --interaction\/selected: var(--color\/gray\/1200);
+  --interaction\/selected-bg: #FFFFFFF5;
+  --interaction\/selected-outline: #FFF6;
+  --background\/alternative: var(--color\/gray\/100);
+  --typography\/black100: var(--color\/gray\/1700);
+  --typography\/black80: #171719CC;
+  --typography\/black60: #17171999;
+  --typography\/black45: #17171973;
+  --typography\/disable: #17171940;
+  --background\/dim: #00000040;
+  --role\/hover: #00000008;
+  --role\/pressed: #0000000D;
+  --role\/disabled: var(--color\/gray\/300);
+  --dropshadow\/sm: #0000000D;
+  --dropshadow\/md: #0000001A;
+  --dropshadow\/lg: #0006;
+  --background\/theme-bg-100: var(--color\/gray\/200);
+  --background\/theme-bg-200: var(--color\/gray\/300);
+  --background\/theme-bg-300: var(--color\/gray\/500);
+  --background\/theme-bg-400: var(--color\/gray\/700);
+  --background\/theme-bg-500: var(--color\/gray\/900);
+  --icon\/reset-color-round: #17171940;
+  --icon\/success-color-round: var(--color\/role\/success);
+  --icon\/warning-color-round: var(--color\/role\/warning);
+  --icon\/error-color-round: var(--color\/role\/error);
+  --icon\/info-color-round: var(--color\/role\/info);
+  --icon\/solid: #171719CC;
   --brand\/company-primary: var(--color\/brand\/company-primary);
+  --brand\/company-strong: #25252580;
+  --brand\/company-subtle: #E2E2E24D;
+  --brand\/company-muted: #E2E2E280;
+  --brand\/company-faint: #FFFC;
+  --brand\/company-ghost: #FFFFFFE5;
   --brand\/hunet-red: var(--color\/brand\/hunet-red);
   --brand\/gonom-violet: var(--color\/brand\/gonom-violet);
 }
 
+/* About heading-heading-20medium: 소섹션 헤더 */
 .heading-heading-20medium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-20bold: 강조 소제목 */
 .heading-heading-20bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-24medium: 페이지 서브 타이틀 */
 .heading-heading-24medium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 24px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-24bold: 강조 헤더 */
 .heading-heading-24bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-28medium: 섹션 헤더 */
 .heading-heading-28medium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 28px;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-28bold: 주요 섹션 헤더 */
 .heading-heading-28bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 28px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-32bold: 페이지 타이틀 */
 .heading-heading-32bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 32px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-40bold: 히어로 섹션 타이틀 */
 .heading-heading-40bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-48bold: 대형 히어로 타이틀 */
 .heading-heading-48bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 48px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About heading-heading-64bold: 랜딩 페이지 메인 타이틀 */
 .heading-heading-64bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 64px;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.399999976158142;
   letter-spacing: -0.7px;
 }
 
+/* About body-body-12regular: 일반 본문, 설명 텍스트, 긴 문장
+캡션, 보조 정보 */
 .body-body-12regular {
   font-family: "Pretendard";
+  font-style: "Regular";
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-12medium: 레이블, 강조가 필요한 본문
+캡션, 보조 정보 */
 .body-body-12medium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-12bold: 소제목, 수치, 중요 정보 강조
+캡션, 보조 정보 */
 .body-body-12bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 12px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-13regular */
 .body-body-13regular {
   font-family: "Pretendard";
+  font-style: "Regular";
   font-size: 13px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-13bold */
 .body-body-13bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 13px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-14regular: 일반 본문, 설명 텍스트, 긴 문장
+보조 본문, 툴팁 */
 .body-body-14regular {
   font-family: "Pretendard";
+  font-style: "Regular";
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-14mdeium: 레이블, 강조가 필요한 본문
+보조 본문, 툴팁 */
 .body-body-14mdeium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-14bold: 소제목, 수치, 중요 정보 강조
+보조 본문, 툴팁 */
 .body-body-14bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-16regular: 일반 본문, 설명 텍스트, 긴 문장
+기본 본문 */
 .body-body-16regular {
   font-family: "Pretendard";
+  font-style: "Regular";
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-16medium: 레이블, 강조가 필요한 본문
+기본 본문 */
 .body-body-16medium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-16bold: 소제목, 수치, 중요 정보 강조
+기본 본문 */
 .body-body-16bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-18regular: 일반 본문, 설명 텍스트, 긴 문장
+강조 본문, 리드 텍스트 */
 .body-body-18regular {
   font-family: "Pretendard";
+  font-style: "Regular";
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-18medium: 레이블, 강조가 필요한 본문
+강조 본문, 리드 텍스트 */
 .body-body-18medium {
   font-family: "Pretendard";
+  font-style: "Medium";
   font-size: 18px;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
 }
 
+/* About body-body-18bold: 소제목, 수치, 중요 정보 강조
+강조 본문, 리드 텍스트 */
 .body-body-18bold {
   font-family: "Pretendard";
+  font-style: "Bold";
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.6;
+  line-height: 1.600000023841858;
   letter-spacing: -0.5px;
+}
+
+/* About heading-heading-18bold */
+.heading-heading-18bold {
+  font-family: "Pretendard";
+  font-style: "Bold";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.399999976158142;
+  letter-spacing: -0.7px;
 }
