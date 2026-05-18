@@ -1,0 +1,204 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --text-4xl: 64px;
+  --text-2xl: 40px;
+  --text-xl: 24px;
+  --text-lg: 20px;
+  --text-base: 16px;
+  --text-sm: 14px;
+  --background: rgba(255, 255, 255, 1.00);
+  --foreground: rgba(23, 23, 25, 1.00);
+  --card: rgba(255, 255, 255, 1.00);
+  --card-foreground: rgba(23, 23, 25, 1.00);
+  --popover: rgba(23, 23, 25, 1.00);
+  --popover-foreground: rgba(255, 255, 255, 1.00);
+  --primary: rgba(0, 102, 255, 1.00);
+  --primary-foreground: rgba(255, 255, 255, 1.00);
+  --secondary: rgba(112, 115, 124, 1.00);
+  --secondary-foreground: rgba(255, 255, 255, 1.00);
+  --muted: rgba(234, 235, 236, 1.00);
+  --muted-foreground: rgba(23, 23, 25, 0.25);
+  --accent: rgba(0, 102, 255, 1.00);
+  --accent-foreground: rgba(255, 255, 255, 1.00);
+  --destructive: rgba(250, 46, 67, 1.00);
+  --destructive-foreground: rgba(255, 255, 255, 1.00);
+  --border: rgba(225, 226, 228, 1.00);
+  --input: rgba(255, 255, 255, 1.00);
+  --input-background: rgba(255, 255, 255, 1.00);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --ring: rgba(112, 115, 124, 1.00);
+  --elevation-sm: 0px 4px 4px -4px rgba(0, 0, 0, 0.05), 0px 16px 16px -8px rgba(0, 0, 0, 0.10);
+  --chart-1: rgba(0, 102, 255, 1.00);
+  --chart-2: rgba(0, 191, 64, 1.00);
+  --chart-3: rgba(255, 146, 0, 1.00);
+  --chart-4: rgba(250, 46, 67, 1.00);
+  --chart-5: rgba(112, 115, 124, 1.00);
+  --radius: 8px;
+  --radius-button: 8px;
+  --radius-card: 8px;
+  --sidebar: rgba(255, 255, 255, 1.00);
+  --sidebar-foreground: rgba(23, 23, 25, 1.00);
+  --sidebar-primary: rgba(0, 102, 255, 1.00);
+  --sidebar-primary-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-accent: rgba(112, 115, 124, 1.00);
+  --sidebar-accent-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-border: rgba(225, 226, 228, 1.00);
+  --sidebar-ring: rgba(112, 115, 124, 1.00);
+}
+
+.dark {
+  --background: rgba(23, 23, 25, 1.00);
+  --foreground: rgba(255, 255, 255, 1.00);
+  --card: rgba(40, 40, 45, 1.00);
+  --card-foreground: rgba(255, 255, 255, 1.00);
+  --popover: rgba(40, 40, 45, 1.00);
+  --popover-foreground: rgba(255, 255, 255, 1.00);
+  --primary: rgba(0, 102, 255, 1.00);
+  --primary-foreground: rgba(255, 255, 255, 1.00);
+  --secondary: rgba(60, 65, 75, 1.00);
+  --secondary-foreground: rgba(255, 255, 255, 1.00);
+  --muted: rgba(60, 65, 75, 1.00);
+  --muted-foreground: rgba(255, 255, 255, 0.5);
+  --accent: rgba(0, 102, 255, 1.00);
+  --accent-foreground: rgba(255, 255, 255, 1.00);
+  --destructive: rgba(250, 46, 67, 1.00);
+  --destructive-foreground: rgba(255, 255, 255, 1.00);
+  --border: rgba(60, 65, 75, 1.00);
+  --input: rgba(40, 40, 45, 1.00);
+  --input-background: rgba(40, 40, 45, 1.00);
+  --ring: rgba(112, 115, 124, 1.00);
+  --elevation-sm: 0px 4px 4px -4px rgba(0, 0, 0, 0.2), 0px 16px 16px -8px rgba(0, 0, 0, 0.3);
+  --chart-1: rgba(0, 102, 255, 1.00);
+  --chart-2: rgba(0, 191, 64, 1.00);
+  --chart-3: rgba(255, 146, 0, 1.00);
+  --chart-4: rgba(250, 46, 67, 1.00);
+  --chart-5: rgba(112, 115, 124, 1.00);
+  --sidebar: rgba(23, 23, 25, 1.00);
+  --sidebar-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-primary: rgba(0, 102, 255, 1.00);
+  --sidebar-primary-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-accent: rgba(60, 65, 75, 1.00);
+  --sidebar-accent-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-border: rgba(60, 65, 75, 1.00);
+  --sidebar-ring: rgba(112, 115, 124, 1.00);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --elevation-sm: var(--elevation-sm);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-4xl);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.4;
+    }
+
+    h2 {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-2xl);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.4;
+    }
+
+    h3 {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.4;
+    }
+
+    h4 {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.4;
+    }
+
+    p {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.6;
+    }
+
+    label {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-sm);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.6;
+    }
+
+    button {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.6;
+    }
+
+    input {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.6;
+    }
+  }
+}
+
+html {
+  font-size: var(--font-size);
+}
