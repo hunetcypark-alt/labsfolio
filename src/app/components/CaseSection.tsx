@@ -65,10 +65,7 @@ export function CaseSection() {
                     >
                       {item.category}
                     </span>
-                    <span
-                      className="body-body-12regular"
-                      style={{ color: "#17171973" }}
-                    >
+                    <span className="body-body-12regular" style={{ color: "#17171973" }}>
                       {item.industry} · {item.year}
                     </span>
                   </div>

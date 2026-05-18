@@ -26,11 +26,7 @@ export function FaqSection() {
         </div>
         <div className="flex flex-col">
           {faqs.map((faq, i) => (
-            <div
-              key={i}
-              className="flex flex-col border-b"
-              style={{ borderColor: "#EAEBEC" }}
-            >
+            <div key={i} className="flex flex-col border-b" style={{ borderColor: "#EAEBEC" }}>
               <button
                 className="flex items-center justify-between w-full py-[20px] cursor-pointer"
                 style={{ background: "transparent" }}
