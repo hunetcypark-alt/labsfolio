@@ -1,0 +1,347 @@
+:root {
+  --size\/0: 0;
+  --size\/1: 1;
+  --size\/2: 2;
+  --size\/4: 4;
+  --size\/6: 6;
+  --size\/8: 8;
+  --size\/12: 12;
+  --size\/14: 14;
+  --size\/16: 16;
+  --size\/18: 18;
+  --size\/20: 20;
+  --size\/24: 24;
+  --size\/28: 28;
+  --size\/32: 32;
+  --size\/36: 36;
+  --size\/40: 40;
+  --size\/48: 48;
+  --size\/56: 56;
+  --size\/60: 60;
+  --size\/64: 64;
+  --size\/72: 72;
+  --size\/80: 80;
+  --size\/96: 96;
+  --color\/gray\/100: #F7F7F8;
+  --color\/gray\/200: #F4F4F5;
+  --color\/gray\/300: #EAEBEC;
+  --color\/gray\/400: #E1E2E4;
+  --color\/gray\/500: #DBDCDF;
+  --color\/gray\/600: #C2C4C8;
+  --color\/gray\/700: #AEB0B6;
+  --color\/gray\/800: #989BA2;
+  --color\/gray\/900: #878A93;
+  --color\/gray\/1000: #70737C;
+  --size\/100: 100;
+  --size\/200: 200;
+  --size\/300: 300;
+  --size\/400: 400;
+  --size\/500: 500;
+  --size\/600: 600;
+  --size\/700: 700;
+  --size\/800: 800;
+  --size\/900: 900;
+  --color\/gray\/1100: #5A5C63;
+  --color\/gray\/1200: #46474C;
+  --color\/gray\/1300: #333438;
+  --color\/gray\/1400: #292A2D;
+  --color\/gray\/1500: #212225;
+  --color\/gray\/1600: #1B1C1E;
+  --color\/gray\/1700: #171719;
+  --color\/gray\/1800: #0F0F10;
+  --color\/red\/100: #FFF7F7;
+  --color\/red\/200: #FFEEF0;
+  --color\/red\/300: #FED5D9;
+  --color\/red\/400: #FDABB4;
+  --color\/red\/500: #FC828E;
+  --color\/red\/600: #FB5869;
+  --color\/red\/700: #FA2E43;
+  --color\/red\/800: #C82536;
+  --color\/red\/900: #961C28;
+  --color\/red\/1000: #64121B;
+  --color\/red\/1100: #32090D;
+  --color\/blue\/100: #F5F9FF;
+  --color\/blue\/200: #EBF3FF;
+  --color\/blue\/300: #CCE0FF;
+  --color\/blue\/400: #99C2FF;
+  --color\/blue\/500: #66A3FF;
+  --color\/blue\/600: #3385FF;
+  --color\/blue\/700: #06F;
+  --color\/blue\/800: #0052CC;
+  --color\/blue\/900: #003D99;
+  --color\/blue\/1000: #002966;
+  --color\/blue\/1100: #001433;
+  --color\/green\/100: #F5FCF7;
+  --color\/green\/200: #EBFAF0;
+  --color\/green\/300: #CCF2D9;
+  --color\/green\/400: #99E5B3;
+  --color\/green\/500: #66D98C;
+  --color\/green\/600: #3C6;
+  --color\/green\/700: #00BF40;
+  --color\/green\/800: #093;
+  --color\/green\/900: #007326;
+  --color\/green\/1000: #004C1A;
+  --color\/green\/1100: #00260D;
+  --color\/violet\/100: #F9F7FE;
+  --color\/violet\/200: #F3F0FE;
+  --color\/violet\/300: #E0D9FC;
+  --color\/violet\/400: #C1B3FA;
+  --color\/violet\/500: #A38DF7;
+  --color\/violet\/600: #8467F5;
+  --color\/violet\/700: #6541F2;
+  --color\/violet\/800: #5134C2;
+  --color\/violet\/900: #3D2791;
+  --color\/violet\/1000: #281A61;
+  --color\/violet\/1100: #140D30;
+  --color\/role\/info: #06F;
+  --color\/role\/success: #00BF40;
+  --color\/role\/warning: #FF9200;
+  --color\/role\/error: #FA2E43;
+  --color\/brand\/hunet-red: #FA2E43;
+  --color\/brand\/gonom-violet: #6541F2;
+  --color\/brand\/company-primary: var(--color\/blue\/700);
+  --color\/white: #FFF;
+  --color\/black: #000;
+  --typography\/black100: var(--color\/gray\/1700);
+  --typography\/black80: #171719CC;
+  --typography\/black60: #17171999;
+  --typography\/black45: #17171973;
+  --typography\/disable: #17171940;
+  --background\/primary: var(--color\/white);
+  --background\/alternative: var(--color\/gray\/100);
+  --line\/layout: var(--color\/gray\/300);
+  --line\/outline: var(--color\/gray\/400);
+  --radius\/none: var(--size\/0);
+  --radius\/xs: var(--size\/4);
+  --radius\/sm: var(--size\/8);
+  --radius\/md: var(--size\/12);
+  --radius\/lg: var(--size\/16);
+  --radius\/xl: var(--size\/20);
+  --radius\/2xl: var(--size\/32);
+  --radius\/full: var(--size\/900);
+  --spacing\/1: var(--size\/2);
+  --spacing\/2: var(--size\/4);
+  --spacing\/3: var(--size\/6);
+  --spacing\/4: var(--size\/8);
+  --spacing\/6: var(--size\/12);
+  --spacing\/8: var(--size\/16);
+  --spacing\/10: var(--size\/20);
+  --spacing\/12: var(--size\/24);
+  --spacing\/16: var(--size\/32);
+  --spacing\/20: var(--size\/40);
+  --spacing\/24: var(--size\/48);
+  --spacing\/32: var(--size\/64);
+  --spacing\/40: var(--size\/80);
+  --spacing\/48: var(--size\/96);
+  --text\/xs: var(--size\/12);
+  --text\/sm: var(--size\/14);
+  --text\/base: var(--size\/16);
+  --text\/lg: var(--size\/18);
+  --text\/xl: var(--size\/20);
+  --text\/2xl: var(--size\/24);
+  --text\/3xl: var(--size\/28);
+  --text\/4xl: var(--size\/32);
+  --text\/5xl: var(--size\/40);
+  --text\/6xl: var(--size\/48);
+  --text\/7xl: var(--size\/64);
+  --font\/weight\/normal: var(--size\/400);
+  --font\/weight\/medium: var(--size\/500);
+  --font\/weight\/semibold: var(--size\/600);
+  --font\/weight\/bold: var(--size\/700);
+  --font\/weight\/black: var(--size\/900);
+  --brand\/company-primary: var(--color\/brand\/company-primary);
+  --brand\/hunet-red: var(--color\/brand\/hunet-red);
+  --brand\/gonom-violet: var(--color\/brand\/gonom-violet);
+}
+
+.heading-heading-20medium {
+  font-family: "Pretendard";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-20bold {
+  font-family: "Pretendard";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-24medium {
+  font-family: "Pretendard";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-24bold {
+  font-family: "Pretendard";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-28medium {
+  font-family: "Pretendard";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-28bold {
+  font-family: "Pretendard";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-32bold {
+  font-family: "Pretendard";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-40bold {
+  font-family: "Pretendard";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-48bold {
+  font-family: "Pretendard";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.heading-heading-64bold {
+  font-family: "Pretendard";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.7px;
+}
+
+.body-body-12regular {
+  font-family: "Pretendard";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-12medium {
+  font-family: "Pretendard";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-12bold {
+  font-family: "Pretendard";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-13regular {
+  font-family: "Pretendard";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-13bold {
+  font-family: "Pretendard";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-14regular {
+  font-family: "Pretendard";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-14mdeium {
+  font-family: "Pretendard";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-14bold {
+  font-family: "Pretendard";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-16regular {
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-16medium {
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-16bold {
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-18regular {
+  font-family: "Pretendard";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-18medium {
+  font-family: "Pretendard";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
+
+.body-body-18bold {
+  font-family: "Pretendard";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.5px;
+}
