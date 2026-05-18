@@ -16,6 +16,7 @@ import { NotFoundPage } from "./pages/NotFoundPage";
 
 export const router = createBrowserRouter([
   {
+    // Public pages (with Header + Footer)
     path: "/",
     Component: PublicLayout,
     children: [
@@ -28,6 +29,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
+    // Internal pages (auth required, no Footer)
     path: "/",
     Component: InternalLayout,
     children: [
@@ -39,6 +41,7 @@ export const router = createBrowserRouter([
     ],
   },
   {
+    // External share page (standalone, no Header/Footer)
     path: "/share/:token",
     Component: SharePage,
   },
