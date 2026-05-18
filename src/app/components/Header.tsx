@@ -32,13 +32,11 @@ export function Header() {
       className="w-full flex items-center justify-between px-[32px] py-[16px] border-b sticky top-0 z-50"
       style={{ borderColor: "#EAEBEC", background: "#FFF" }}
     >
-      {/* Logo */}
       <div className="flex items-center gap-[32px]">
         <Link to="/" className="heading-heading-24bold" style={{ color: "#171719", textDecoration: "none" }}>
           LABSfolio
         </Link>
 
-        {/* Public nav (when not logged in) */}
         {!isLoggedIn && (
           <nav className="hidden md:flex items-center gap-[24px]">
             {publicLinks.map((link) => (
@@ -59,7 +57,6 @@ export function Header() {
           </nav>
         )}
 
-        {/* Internal nav (when logged in) */}
         {isLoggedIn && (
           <nav className="hidden md:flex items-center gap-[24px]">
             <Link
@@ -88,7 +85,6 @@ export function Header() {
         )}
       </div>
 
-      {/* Right section */}
       <div className="flex items-center gap-[16px]">
         {!isLoggedIn && (
           <>
@@ -166,7 +162,6 @@ export function Header() {
           </div>
         )}
 
-        {/* Mobile menu toggle */}
         <button
           className="flex md:hidden items-center justify-center w-[40px] h-[40px]"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -175,7 +170,6 @@ export function Header() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {mobileOpen && (
         <div
           className="absolute top-full left-0 right-0 flex flex-col border-b md:hidden"

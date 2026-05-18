@@ -47,7 +47,6 @@ export function HeroSection() {
           </button>
         </div>
       </div>
-      {/* Hero visual */}
       <div className="mt-[64px] w-full max-w-[960px] rounded-[16px] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1477865300989-86ba6d4adcab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb21wYW55JTIwZGlnaXRhbCUyMHByZXNlbnRhdGlvbnxlbnwxfHx8fDE3NzYyMzk3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
